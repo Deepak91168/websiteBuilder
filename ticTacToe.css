@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap");
+main {
+	display: flex;
+	font-family: "Nunito", sans-serif;
+	align-items: start;
+}
+#details {
+	padding: 40px 40px 0 40px;
+}
+.input-group {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.input-group label {
+	display: block;
+	line-height: 1;
+	text-transform: uppercase;
+	margin-bottom: -10px;
+	margin-left: 10px;
+	padding-left: 7px;
+	z-index: 9;
+	background-color: #fff;
+	width: 80px;
+}
+.input-group > div {
+	display: flex;
+}
+.input-group > div input {
+	height: 27px;
+	margin-left: 5px;
+	padding: 5px 10px;
+	font-family: "Nunito", sans-serif;
+}
+.input-group > div input.is-required {
+	box-shadow: 0 0 2px #990000;
+	border: 1px solid #990000;
+}
+.input-group > div button {
+	padding-top: 4px;
+	margin-left: 10px;
+}
+#ttb {
+	position: relative;
+	width: 300px;
+	display: flex;
+}
+#tic-tac-toe-board {
+	display: flex;
+	width: 300px;
+	height: 300px;
+	margin: 40px auto;
+	background-color: #cecece;
+	flex-wrap: wrap;
+	position: relative;
+}
+
+#start-button {
+	position: absolute;
+	z-index: 9999999;
+	align-self: center;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	font-size: 70px;
+	font-family: inherit;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: transparent;
+	border-color: transparent;
+	color: #ff9f29;
+	text-shadow: 0 0 10px #faf3e3;
+}
+
+.square-space {
+	width: 33.333333%;
+	height: 33.33333%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+}
+
+.square-space.glow {
+	text-shadow: 0 0 20px #ffd24c;
+}
+
+.square-space > span {
+	font-family: "Nunito", sans-serif;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: -15px;
+}
+
+.square-space:nth-child(odd) {
+	background-color: #000;
+}
+.square-space:nth-child(odd) > span {
+	color: #fff;
+}
+
+.square-space:nth-child(even) {
+	background-color: #fff;
+}
+
+.scratch:after {
+	content: "";
+	background-color: #ffd24c;
+	position: absolute;
+}
+
+.dir-column-0:after {
+	width: 5px;
+	height: 80px;
+	bottom: 0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.dir-column-1:after {
+	width: 5px;
+	height: 100px;
+}
+
+.dir-column-2:after {
+	width: 5px;
+	height: 75px;
+	top: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.dir-row-0:after {
+	width: 80px;
+	height: 5px;
+	right: 0;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.dir-row-1:after {
+	width: 100px;
+	height: 5px;
+}
+
+.dir-row-2:after {
+	width: 75px;
+	height: 5px;
+	left: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.dir-front-diagonal-0:after {
+	width: 5px;
+	height: 100px;
+	right: 30px;
+	bottom: -15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	transform: rotate(-43deg);
+}
+
+.dir-front-diagonal-1:after {
+	width: 5px;
+	height: 145px;
+	transform: rotate(-45deg);
+}
+
+.dir-front-diagonal-2:after {
+	width: 5px;
+	height: 100px;
+	left: 25px;
+	top: -22px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	transform: rotate(-43deg);
+}
+
+.dir-back-diagonal-0:after {
+	width: 5px;
+	height: 100px;
+	right: 30px;
+	top: -17.6px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	transform: rotate(-135deg);
+}
+
+.dir-back-diagonal-1:after {
+	width: 5px;
+	height: 145px;
+	transform: rotate(-135deg);
+}
+
+.dir-back-diagonal-2:after {
+	width: 5px;
+	height: 120px;
+	left: 25px;
+	bottom: -32px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	transform: rotate(-135deg);
+}
+
+.player-won .square-space:not(.scratch) {
+	opacity: 0.6;
+}
