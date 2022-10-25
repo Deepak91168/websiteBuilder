@@ -1,0 +1,168 @@
+.button1 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: black;
+  }
+  .button1 {
+    border: none;
+    color: white;
+    font-family: georgia;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #f31512;
+  }
+  .button2 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    color: black;
+  }
+  .button2 {
+    border: none;
+    color: white;
+    font-family: georgia;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #ff9f06;
+  }
+  .button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+  .button {
+    border: none;
+    color: white;
+    font-family: georgia;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #f3ff12;
+  }
+  .button3 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .button3:hover {
+    background-color: white;
+    color: black;
+  }
+  .button3 {
+    border: none;
+    color: white;
+    font-family: georgia;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #12f90c;
+  }
+  .button4 {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .button4:hover {
+    background-color: white;
+    color: black;
+  }
+  .button4 {
+    border: none;
+    color: white;
+    font-family: georgia;
+    padding: 8px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #3012e7;
+  }
+  body{
+    background-color: black;
+  }
+  h1{
+     text-align: center;
+    color: #962acf;
+    font-family: lato;
+  }
+  p{
+    text-align: left;
+    font-family: arial;
+    font-size: 16px;
+    color: #eae6e5;
+  }
+  .img1 {
+    height: 200px;
+    position: absolute;
+    text-align:center;
+  }
+  .link {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  
+  .link:hover {
+    background-color: white;
+    color: black;
+  }
+  .link {
+    border: none;
+    color: white;
+    font-family: georgia;
+    padding: 8px 28px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #fc15f6;
+  }
+  .link1, .link{
+    position: absolute;
+    text-align:center;
+  }
+  
