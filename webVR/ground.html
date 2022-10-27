@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <a-scene>
+            <a-assets>
+                <img id="marble" src="pitch.jpg" />
+                <img id="cracks" src="crack.jpg" />
+                <img id="grass" src="grass_cricket.webp" />
+            </a-assets>
+            <a-plane
+                position="0 0 0"
+                id="my_pitch"
+                material="color:white; src:#marble"
+                rotation="-90 0 0"
+                scale="3 20.2 1"
+                normal-texture-repeat="1 1"
+                depth="2"
+            ></a-plane>
+            <a-circle
+                color="green"
+                rotation="-90 0 0"
+                radius="65"
+                position="1 -1 1"
+            ></a-circle>
+            <a-cylinder
+                color="white"
+                position="0 -1 0"
+                height="0.1"
+                radius="24"
+                open-ended="true"
+                side="double"
+            ></a-cylinder>
+            <a-entity
+                line="start: -1.5 0 10.1; end: 1.5 0 10.1; color: white"
+            ></a-entity>
+            <a-entity
+                line="start: -1.5 0 8.88; end: 1.5 0 8.88; color: white"
+            ></a-entity>
+        </a-scene>
+        <script src="index.js"></script>
+    </body>
+</html>
